@@ -32,7 +32,7 @@ This repository contains multiple Python scripts designed to support preprocessi
 - Generates predictions and saves results to CSV.
 - Designed to run on Google Colab with Google Drive integration.
 
-### 6. Performance Evaluation Script (`evaluation.py`)
+### 6. Performance Evaluation Script (`results_evaluation.py`)
 - Loads ground truth labels and prediction results.
 - Calculates accuracy and prints a detailed classification report.
 - Generates and displays a confusion matrix heatmap for visual performance analysis.
@@ -58,6 +58,6 @@ This repository contains multiple Python scripts designed to support preprocessi
   - `Pillow`
   - `huggingface_hub`
 
-Install via pip:
+Install via pip
 ```bash
 pip install package_names
